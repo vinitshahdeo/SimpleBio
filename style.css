@@ -1,15 +1,7 @@
-#mydiv {
-    position:absolute;
-   
-    top: 50%;
-    left: 50%;
-    width:30em;
-    height:18em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
-    border: 1px solid #ccc;
-    background-color: #f3f3f3;
-}
+/*
+* Author - Vinit Shahdeo
+* Email - vinitshahdeo@gmail.com
+*/
 body {
 	font-family: 'Montserrat', sans-serif;
     color: #404142;
@@ -26,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   height: 0;
   border:2px solid #404142;
-    opacity: 0.4;
+  opacity: 0.1;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
@@ -39,151 +31,93 @@ ul {
 a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
+  	     transition: all 0.3s;
 }
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
 }
 
-/* Buttons override */
+/* Button for title text */
 .btn {
-	text-transform: uppercase;
+	text-transform: capitalize;
     font-weight: 600;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+        transition: all 0.6s;
+    
 }
 .btn-lg {
-	padding: 15px 40px;
+	padding: 5px 10px;
     font-size: 16px;
     line-height: none;
     border-radius: 4px;
 }
-.btn-red {
-	background-color: #dd5138;
-	color: #fff;
-}
+
 .btn-yellow {
 	background-color: #fcd93b;
 	color: #2a2a2a;
 	opacity: 0.8;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    
 }
 .btn-yellow:hover {
-	opacity: 1;
-}
-.btn-yellow.disabled:hover,
-.btn-yellow[disabled]:hover {
-    opacity: 0.65;
-}
-.content-ct {
-	text-align: center;
-}
-
-/* ------------------
-	Navigation 
------------------- */
-.side-menu {
-	position: fixed;
-	right: 30px;
-	top: 50%;
-    transform: translateY(-73px);
-    z-index: 99;
-}
-.side-menu ul li {
-    text-align: right;
-    margin: 10px 0;
-}
-.side-menu ul li a span {
-	display: inline-block;
-}
-.side-menu ul li a span.menu-title {
-	color: #fff;
-    position: relative;
-    margin-right: 10px;
+	opacity: 0.9;
     text-transform: uppercase;
-    font-size: 12px;
-    background-color: #dd5138;
-    padding: 3px 10px;
-    font-weight: 600;
-    border-radius: 3px;
-    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
-    transition: transform 0.2s, opacity 0.2s;
-    -webkit-transform-origin: 100% 50%;
-    -moz-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    -o-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-    opacity: 0;
-}
-.side-menu ul li a:hover span.menu-title {
-    opacity: 1;
-}
-.side-menu ul li a span.dot {
-    position: relative;
-    background-color: #dd5138;
-    border-radius: 2em;
-    height: 10px;
-    width: 10px;
-    -webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
-}
-.side-menu ul li a:hover span.dot {
-	transform: scale(1.8);
+    cursor: pointer;
 }
 
-
-.hero-header {
-	background: #016cc7;
-	min-height: 600px;
-	padding: 5em;
+.btn-red {
+	background-color: rgb(251,155,79);
 	color: #fff;
+	opacity: 0.8;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    
 }
-.hero-header h1 {
-	margin: 1em 0 0 0;
+.btn-red:hover {
+	opacity: 0.9;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-.hero-header h4 {
-	font-weight: normal;
-	opacity: 0.6;
-    letter-spacing: 1px;
-    margin: 2em 0;
-}
-.hero-header .logo {
-	max-width: 180px;
-}
-.hero-header .btn {
-	margin-top: 3em;
-}
-.hero-header .rocket {
-	max-width: 100%;
-}
-.me-row {
-	padding: 30px 0;
-}
-.row-title {
-	font-weight: 400;
-}
-.feature {
+
+/* div class */
+.about {
 	padding: 20px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
-.feature span {
+.about span {
 	font-size: 2em;
     color: #016cc7;
 }
-            .feature p{
+            .about p{
                 opacity:0.6;
             }
-             .feature p span{
+             .about p span{
                 color:#016cc7;
+                 font-size:1em;
+                 opacity: 1.0;
+                 font-weight: bolder;
+                 -webkit-transition: all 0.8s;
+  	-moz-transition: all 0.8s;
+  	transition: all 0.8s;
             }
-            .feature a{
+       .about p span:hover{
+               letter-spacing: 0.1px;
+               text-transform: uppercase;
+           cursor: pointer;
+            }
+            .about a{
                 text-decoration:none;
                 font-weight:bold;
                 color:#2a2a2a;
             }
-            .feature a:hover{
+            .about a:hover{
                 color:#016cc7;
             }
-.speaker .feature {
+.main .about {
 	width: 31.333333%;
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
@@ -192,11 +126,12 @@ a:hover, a:focus, a:active, a:visited {
   	border: 3px solid #f6f6f6;
     border-radius: 5px;
 }
-.speaker .feature:hover {
+.main .about:hover {
     box-shadow: 3px 3px 10px #ccc;
     transform: translateY(-10px);
 }
-.speaker-img {
+/* Display picture */
+.main-img {
 	max-width: 40%;
     border: 4px solid #efefef;
     border-radius: 50%;
@@ -204,16 +139,17 @@ a:hover, a:focus, a:active, a:visited {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-        .speaker-img:hover{
+        .main-img:hover{
            -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
             cursor: pointer;
              filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    filter: gray;  /* For IE 6 - 9 */
+    -webkit-filter: grayscale(100%);  
+    filter: gray;  
     
         }
+/* Social Media icons */
 ul.social li {
 	list-style: none;
 	display: inline-block;
@@ -225,10 +161,17 @@ ul.social li a {
 }
 .fa{
 	color:#016cc7;
+    opacity: 0.8;
 }
         .fa:hover{
             opacity: 0.8;
+            color:#dd5138;
         }
+
+ /* === Custom Colors of original logo=== 
+* Remove comments if you want to use it
+*/
+/*
         .fa-linkedin:hover{
             color:#4099ff;
         }
@@ -237,146 +180,19 @@ ul.social li a {
         }
         .fa-facebook:hover{
             color:#3b5998;
-        }
-a span.ti-facebook {
-	color: #3b5998;
-}
-a span.ti-twitter-alt {
-	color: #4099ff;
-}
-
-.tickets {
-	background-color: #fcd93b;
-}
-.tickets .price {
-	font-size: 4em;
-	color: #dd5138;
-    font-weight: 100;
-}
-.tickets .price sup {
-	font-size: 0.4em;
-}
+        }*/
 
 
-.nav-tabs {
-    margin-top: 20px;
-}
-.schedule .media {
-	margin-top: 4em;
-}
-.schedule .media-object {
-	max-width: 100px;
-}
-.schedule .media-heading {
-	font-weight: 600;
-    border-bottom: 2px solid #efefef;
-    padding-bottom: 10px;
-}
-.schedule .media-body h5 {
-	text-transform: uppercase;
-	font-weight: 600;
-}
-
-
-.footer {
-    background-color: #2a2a2a;
-    margin-top: 30px;
-    color: #fff;
-}
-.footer p {
-    margin-bottom: 0;
-}
-.footer-credit {
-    padding: 40px;
-}
-ul.footer-menu {
-    text-align: right;
-}
-ul.footer-menu li {
-    display: inline-block;
-}
-ul.footer-menu li a {
-    font-size: 12px;
-    color: #fcd93b;
-    padding-right: 20px;
-}
-ul.footer-menu li a:hover {
-    color: #dd5138;
-}
-
-
-.contact {
-    background-color: #3a3a3a;
-    color: #fff;
-    padding: 1em;
-}
-.contact h3 {
-    margin-bottom: 30px;
-}
-.form-control {
-    padding: 20px 15px;
-    border: 3px solid #eee;
-    background-color: #f9f9f9;
-    box-shadow: none;
-}
-.help-block {
-    font-size: 12px;
-}
-.form-control-feedback {
-    top: 15px;
-    right: 15px;
-}
-
-.animated { 
-    -webkit-animation-duration: 5s; 
-    animation-duration: 5s; 
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both; 
-    -webkit-animation-timing-function: linear; 
-    animation-timing-function: linear; 
-    animation-iteration-count:infinite; 
-    -webkit-animation-iteration-count:infinite; 
-} 
-
-@-webkit-keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
-    40% {-webkit-transform: translateY(-30px);} 
-    60% {-webkit-transform: translateY(-15px);} 
-} 
-
-@keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-    40% {transform: translateY(-30px);} 
-    60% {transform: translateY(-15px);} 
-} 
-
-.bounce { 
-    -webkit-animation-name: bounce; 
-    animation-name: bounce; 
-}
-
-/* ========================================
-    Custom Media Queries
-======================================== */
+/* 
+ ===Custom Media Queries===
+ */
 
 /* Mobile */
 
 @media (max-width: 767px) {
-    .hero-header {
-        padding: 3em 1em 1em 1em;
-        text-align: center;
-        max-height: 550px;
-    }
-    .speaker .feature {
+    
+    .main .about {
         width: 100%
-    }
-    .footer-credit {
-        text-align: center;
-        padding: 40px 20px;
-    }
-    ul.footer-menu {
-        text-align: center;
-        margin-top: 30px;
     }
 }
 
@@ -384,24 +200,17 @@ ul.footer-menu li a:hover {
 /* iPad Portrait */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .hero-header {
-        padding: 3em 1em 1em 1em;
-        text-align: center;
-    }
-    .speaker .feature {
+    
+    .main .about {
         width: 49%;
         margin-right: 7px;
     }
-    ul.footer-menu {
-        margin-top: 0;
-    }
 }
-
 
 /* iPad Landscape */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .speaker .feature {
+    .main .about {
         width: 49%;
         margin-right: 9px;
     }
