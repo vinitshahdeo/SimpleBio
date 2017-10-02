@@ -1,2 +1,4 @@
-# SimpleBio
-A starter template for beginners.
+# Simple Bio
+## A starter template for beginners.
+
+### Check demo here - https://vinitshahdeo.github.io/SimpleBio/
