@@ -23,6 +23,7 @@ if(isset($_POST['signup'])){
 	$run=mysql_query($qry);
 	if(mysql_affected_rows()>0){
 		echo "<script>alert('SUCCESSFUL!!')</script>";
+		header('location:task1.php');
 		
 	}
 }
