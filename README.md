@@ -1,5 +1,7 @@
-<center><h1>Simple Bio</h1></center>
+# Simple Bio
 ## A starter template for beginners. 
+[![Generic badge](https://img.shields.io/badge/Web-Development-teal.svg?style=for-the-badge)](https://github.com/vinitshahdeo/SimpleBio) 
+[![Generic badge](https://img.shields.io/badge/Portfolio-Design-orange.svg?style=for-the-badge)](https://github.com/vinitshahdeo/) [![Generic badge](https://img.shields.io/badge/Basic-Template-blue.svg?style=for-the-badge)](https://github.com/vinitshahdeo/) 
 
 Kick start your web designing with this basic template. You can use this template to build your **portfolio**. It's always good to have a personal website.
 
