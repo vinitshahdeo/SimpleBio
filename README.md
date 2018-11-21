@@ -1,4 +1,4 @@
-# <center>Simple Bio</center>
+<center><h1>Simple Bio</h1></center>
 ## A starter template for beginners. 
 
 Kick start your web designing with this basic template. You can use this template to build your **portfolio**. It's always good to have a personal website.
