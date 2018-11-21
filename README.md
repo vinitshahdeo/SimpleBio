@@ -1,4 +1,4 @@
-# <span style="align:center;">Simple Bio</span>
+# <span style="color:blue">Simple Bio</span>
 ## A starter template for beginners. 
 
 Kick start your web designing with this basic template. You can use this template to build your **portfolio**. It's always good to have a personal website.
