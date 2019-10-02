@@ -1,0 +1,154 @@
+body{
+    height: 600px;
+}
+
+.header {
+    width: 100%;
+    background-image: url("https://www.shutterstock.com/blog/wp-content/themes/sstk-blog/assets/trends/2019/kalamkari-assets/background-lg.jpg");
+    /* background-image: linear-gradient(65deg, #000, #fd1435); */
+    background-size: cover;
+    padding-top: 200px;
+    min-height: 600px;
+}
+
+.title-container {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #fff;
+}
+
+.page-title {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.page-title p,
+.page-title img{
+    font-size: 180px;
+    display: inline-block;
+}
+
+.pattern1{
+    height: 140px;
+    width: auto;
+}
+
+.page-subtitle{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 36px;
+    text-align: right;    
+    font-weight: 700;
+}
+
+.subtext-container {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.subtext{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: right;    
+}
+
+/* Navbar Styles */
+.navbar{
+    height: 70px;
+    width: 100%;
+    max-width: 960px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: table;
+}
+
+.navbar .logo{
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;   
+    text-transform: lowercase;
+    letter-spacing: -2px;
+}
+
+.navbar-left,
+.navbar-right{
+    vertical-align: middle;
+    display: table-cell;
+    width: 50%;
+}
+
+.navbar .bold{
+    font-weight: 400;
+}
+
+.nav{
+    float: right;
+    list-style: none;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0px 20px;
+    transition: all 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.nav-item:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fd1435;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;   
+    text-transform: lowercase;
+}
+
+/* Hire Me Button Styles */
+
+.hireme-container {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.hireme{
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    background-color: #fd1435;
+    padding: 20px 40px;
+    margin-top: 6px;
+    border-radius: 12px;
+    transition: all 300ms cubic-bezier(0.68, -0.1, 0.265, 1.55);
+    border: 5px solid #fd1435;
+}
+
+.hireme:hover{
+    margin-top: 12px;
+    /* margin-right: -80px; */
+    padding: 15px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid #fd1435;
+}
+
