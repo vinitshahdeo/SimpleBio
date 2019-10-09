@@ -86,7 +86,8 @@ a:hover, a:focus, a:active, a:visited {
 /* div class */
 .about {
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 10%;
+    background-color: rgba(105,105,105, 0.3);;
 }
 .about span {
 	font-size: 2em;
@@ -94,6 +95,7 @@ a:hover, a:focus, a:active, a:visited {
 }
             .about p{
                 opacity:0.6;
+                color: black;
             }
              .about p span{
                 color:#016cc7;
