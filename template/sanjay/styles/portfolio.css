@@ -1,0 +1,196 @@
+ @media screen and (orientation:portrait){
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+    }
+
+    #welcome-section{
+      height:100vh;
+      background:black;
+      padding:10%;
+    }
+
+    #navbar{
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      background:maroon;
+    }
+
+    #navbar a{
+      display: inline-block;
+      padding:20px;
+    }
+
+    #navbar a:hover{
+      background: red;
+    }
+
+  #projects{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    background:darkslategray;
+  }
+
+   .project-tile{
+     grid-area:span 1;
+     background:black;
+     border: 1px solid black;
+     margin:10px;
+   }
+
+   #projects-header{
+     grid-area:1/span 3;
+   }
+
+   .project-tile h2{
+     padding:0.3em;
+     text-align:center;
+     font-size: 3vw;
+   }
+
+   h1,h2,h3{
+     text-align:center;
+     color:white;
+   }
+   img{
+     width:100%;
+   }
+
+   a{
+     text-decoration:none;
+     color:white;
+     font-weight:bold;
+   }
+
+
+   p{
+     text-align:center;
+
+   }
+
+      #large-font{
+        font-size:10vw;
+        color:white;
+      }
+
+      #mid-font{
+        font-size:5vw;
+        color:white;
+      }
+      #profile{
+        background:black;
+        text-align:center;
+        padding:10vw;
+      }
+
+      #profile a{
+        padding:1vw;
+        font-size:3vw;
+      }
+
+
+    }
+
+
+@media screen and (orientation:landscape){
+
+      *{
+        box-sizing:border-box;
+      }
+
+      body{
+        margin:0;
+      }
+
+      #welcome-section{
+        height:100vh;
+        background:black;
+        padding:10%;
+      }
+
+      #navbar{
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        background:maroon;
+        padding-left: 2em;
+      }
+
+      #navbar a{
+        display: inline-block;
+        padding:20px;
+      }
+
+      #navbar a:hover{
+        background: red;
+      }
+
+
+      #projects{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        background:darkslategray;
+      }
+
+     .project-tile{
+       grid-area:span 1;
+       background:black;
+       border: 1px solid black;
+       margin:10px;
+     }
+
+     #projects-header{
+       grid-area:1/span 3;
+     }
+
+     .project-tile h2{
+       padding:0.3em;
+       text-align:center;
+       font-size: 3vh
+     }
+
+     h1,h2,h3{
+       text-align:center;
+       color:white;
+     }
+     img{
+       width:100%;
+     }
+
+     a{
+       text-decoration:none;
+       color:white;
+       font-weight:bold;
+     }
+
+
+     p{
+       text-align:center;
+
+     }
+
+      #large-font{
+        font-size:10vh;
+        color:white;
+      }
+
+      #mid-font{
+        font-size:5vh;
+        color:white;
+      }
+      #profile{
+        background:black;
+        text-align:center;
+        padding:10vh;
+      }
+
+      #profile a{
+        padding:1vw;
+        font-size:3vh;
+      }
+
+    }
