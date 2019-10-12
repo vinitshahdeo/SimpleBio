@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Kreon|Libre+Barcode+39+Extended+Text|Lobster+Two|Open+Sans");
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  width: 15em;
+  height: 15em;
+  margin: 2em;
+}
+.block {
+  background-color: #d3d3d3;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  opacity: 0.9;
+}
+.btnlist > a > i {
+  font-size: 2em;
+}
+
+a {
+  color: black;
+}
+.section1 {
+  text-align: center;
+  font-family: "Kreon", serif;
+}
