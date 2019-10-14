@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(7, 4, 4);
+}
+
+.topnav {
+    background: rgb(7, 4, 4);
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 1%;
+    margin-right: 5%;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    color: blueviolet;
+    transition: all 0.5s;
+  }
+
+.center{
+    margin: 50px 0 0 80px;
+    display: flex;
+}
+.greet {
+    color: white;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    z-index: 2;
+
+}
+
+h1 {
+    font-size: 250px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 85px;
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.footer {
+    position: fixed;
+    margin-bottom: 0;
+    margin-left:2%; 
+    padding-bottom: 0; 
+    max-height: 90px;
+    overflow: hidden;
+    bottom: 0%;
+    z-index: 3;
+}
+.footer img{
+    height: 40px;
+    padding: 5px;
+    padding-left: 25px; 
+    margin-bottom: 5%;
+}
+
+#github {
+    height: 50px;
+}
