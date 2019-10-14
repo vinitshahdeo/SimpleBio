@@ -6,7 +6,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
     color: #404142;
     font-size: 16px;
-	letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
@@ -55,7 +56,8 @@ a:hover, a:focus, a:active, a:visited {
 
 .btn-yellow {
 	background-color: #fcd93b;
-	color: #2a2a2a;
+    color: #2a2a2a;
+    border: none;
 	opacity: 0.8;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -63,8 +65,10 @@ a:hover, a:focus, a:active, a:visited {
     
 }
 .btn-yellow:hover {
+    background-color: #2a2a2a;
+    color: #fcd93b;
 	opacity: 0.9;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
 }
 
