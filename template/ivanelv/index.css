@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 40em;
+    height: 20em;
+    border-radius: 15px;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    display: flex;
+}
+
+.card:hover {
+    box-shadow: 0 0px 6px rgba(0, 0, 0, .16), 0 0px 12px rgba(0, 0, 0, .23);
+}
+
+.left-section {
+    /* background: linear-gradient(#0f2027, #203a43, #2c5364); */
+    /* background: linear-gradient(135deg, #ddd, #fff); */
+    background-color: #fafafa;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    z-index: -1;
+}
+
+.left-section > .photo-profile-wrapper {
+    width: 125px;
+    height: 125px;
+    margin-bottom: .5em;
+    margin-top: auto;
+    position: relative;
+    background: url('./img/ivanelv.jpg') no-repeat;
+    background-size: 425px;
+    background-position: 50%  22.5%;
+    border-radius: 50%;
+}
+
+.left-section > .photo-profile-wrapper::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+    top: -10px;
+    width: calc(125px + 20px);
+    height: calc(125px + 20px);
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    animation: rotate 4s linear infinite;
+    border-radius: 50%;
+}
+
+.left-section > .photo-profile-wrapper::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: -6px;
+    top: -6px;
+    width: calc(125px + 12px);
+    height: calc(125px + 12px);
+    background: #ddd;
+    border-radius: 50%;
+}
+
+.left-section > .photo-profile-wrapper > img {
+    /* width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center; */
+}
+
+.title {
+    font-family: 'Varela Round', cursive;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: .5em;
+    background: radial-gradient(#0f2027, #203a43, #2c5364);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.subtitle {
+    font-family: 'Overpass', cursive;
+    font-weight: 500;
+    line-height: 1.5em;
+    background: radial-gradient(#0f2027, #203a43, #2c5364);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.email-content {
+    display: flex;
+    margin-top: auto;
+}
+
+.right-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.self-short-description {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.25rem;
+    text-align: justify;
+    text-justify: inter-auto;
+    letter-spacing: .25px;
+    color: #343a40;
+}
+
+.contact {
+    padding: .5em 1em;
+    border-radius: 25px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    width: 175px;
+    border: 1px solid #ddd;
+}
+
+.social-media-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all .2s linear;
+    cursor: pointer;
+    width: 23px;
+}
+
+.social-media-wrapper:not(:last-child) {
+    margin-right: .5em;
+}
+
+.social-media-wrapper .logo {
+    font-size: 1.25rem;
+    cursor: default;
+}
+
+.instagram {
+    color: #DD2A7B;
+}
+
+.social-media-wrapper:hover {
+    width: 85px;
+    margin-right: 0;
+}
+
+.social-media-wrapper:hover .logo ~ .social-media-name {
+    display: block;
+    opacity: 1;
+    width: 100%;
+    margin-left: 0.25em;
+}
+
+.facebook {
+    color: #3B5998;
+}
+
+.line {
+    color: #00b900;   
+}
+
+.social-media-name {
+    font-family: 'Varela Round', cursive;
+    font-size: .75rem;
+    position: relative;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
