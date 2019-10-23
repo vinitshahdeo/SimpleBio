@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>J Barrett | Personal Site Template (Business Card) </title>  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+     <style>
+       .main {
+         display: grid;
+         margin: auto;
+         width: 30vw;
+         min-width: 300px;
+         height: 20vh;
+         border: 2px dashed darkgray;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: repeat(2, 1fr);
+         background-color: lightgrey;
+       }
+ 
+       .fett {
+         max-width: 10vw;
+         border: 5px solid black;
+         border-radius: 25px; 
+         grid-column: 1 / span 1;
+         grid-row: 1 / span 1;
+         margin: 1em;
+       }
+
+       ul {
+         list-style: none;
+         display: flex;
+         text-align: center;
+       }
+
+       li {
+         padding: 0 0.5em;
+       }
+
+       .details {
+         grid-column: 2 / span 1;
+         grid-row: 1 / span 2;
+         margin: auto;
+         text-align: center;
+         padding-right: 1em;
+         line-height: 0.8em;
+         justify-content: center;
+       }
+
+     </style> 
+
+  </head>
+  <body>
+    <div class="main">
+
+      <div>
+        <img class="fett" src="https://i.imgur.com/qkMoqoL.jpg" alt="Fett Image">  
+      </div>
+
+      <div class="details">
+        <h3>Boba Fett</h3>
+        <h4>Professional Bounty Hunter</h4>
+        <p>Call 555-555-5555</p>
+          <p>To Arrange a Bounty</p>
+        <ul class="social">
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          </ul>     
+      </div>  
+
+    </div>
+  </body>
+</html>
