@@ -1,17 +1,16 @@
 /*
 * Author - Vinit Shahdeo
-*Re-imaginer - 24Taylor
+* Email - vinitshahdeo@gmail.com
 */
 body {
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Montserrat', sans-serif;
     color: #404142;
-    font-size: 25px;
+    font-size: 16px;
 	letter-spacing: 0.2px;
-  background-color: #FFE4E1;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
-    font-family: 'Charmonman', cursive;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     letter-spacing: -0.1px;
     opacity:0.7;
@@ -49,13 +48,13 @@ a:hover, a:focus, a:active, a:visited {
 }
 .btn-lg {
 	padding: 5px 10px;
-    font-size: 24px;
+    font-size: 16px;
     line-height: none;
     border-radius: 4px;
 }
 
-.btn-teal {
-	background-color: #008080; 
+.btn-yellow {
+	background-color: #fcd93b;
 	color: #2a2a2a;
 	opacity: 0.8;
     -webkit-transition: all 0.6s;
@@ -63,7 +62,7 @@ a:hover, a:focus, a:active, a:visited {
     transition: all 0.6s;
     
 }
-.btn-teal:hover {
+.btn-yellow:hover {
 	opacity: 0.9;
     text-transform: uppercase;
     cursor: pointer;
@@ -91,13 +90,13 @@ a:hover, a:focus, a:active, a:visited {
 }
 .about span {
 	font-size: 2em;
-    color: #740466;
+    color: #016cc7;
 }
             .about p{
                 opacity:0.6;
             }
              .about p span{
-                color:#740466;
+                color:#016cc7;
                  font-size:1em;
                  opacity: 1.0;
                  font-weight: bolder;
@@ -116,15 +115,15 @@ a:hover, a:focus, a:active, a:visited {
                 color:#2a2a2a;
             }
             .about a:hover{
-                color:#740466;
+                color:#016cc7;
             }
 .main .about {
-	width: 50.333333%;
+	width: 31.333333%;
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
   	transition: all 0.3s;
   	margin-right: 20px;
-  	border: 3px solid #FFFAF0/* Alt colour #f6f6f6*/;
+  	border: 3px solid #f6f6f6;
     border-radius: 5px;
 }
 .main .about:hover {
@@ -165,8 +164,8 @@ ul.social li a {
     opacity: 0.8;
 }
         .fa:hover{
-            opacity: 0.9;
-            color: #050405/*Alt colour #FFD100*/;
+            opacity: 0.8;
+            color:#dd5138;
         }
 
  /* === Custom Colors of original logo=== 
