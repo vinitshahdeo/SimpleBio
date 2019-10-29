@@ -15,13 +15,10 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.1px;
     opacity:0.7;
 }
-hr {
-  height: 0;
-  border:2px solid #404142;
-  opacity: 0.1;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+hr{
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 ul {
 	margin: 0;
