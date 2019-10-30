@@ -1,0 +1,418 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@snupls 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+1
+00rasdarps/one-page-website
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
+one-page-website/page.html
+@rasdarps rasdarps Add files via upload
+d56eb7f on 12 Sep
+435 lines (353 sloc)  8.04 KB
+  
+<!DOCTYPE html>
+<html>
+<head>
+<title>Business</title>
+<style>
+body{
+margin:0px;
+padding:0px;
+color:#000;
+background:#fff;
+}
+.container{
+ padding:50px;
+}
+/*code to set the header height, width, margin and background color*/
+header{
+height:80px;
+width:100%;
+background-image:linear-gradient(to right, #242582, #2f2fa2);
+margin-bottom:-25px;
+}
+/*arrange navigation menu to right starting from home*/
+header nav {
+float:right;
+}
+/*code to float logo to left*/
+.logo{
+float:left;
+color:#f64c72;
+margin-top:20px;
+margin-left:20px;
+}
+/*code to set menu list to left and inline, set margins and remove bullets*/
+header nav ul li{
+float:left;
+margin-right:20px;
+margin-top:20px;
+list-style:none;
+}
+/*code to change color of menu links and remove underline*/
+header nav ul li a{
+text-decoration:none;
+color:#fff;
+}
+/*code to set hover color of menu links*/
+header nav a:hover{
+color:#f64c72;
+}
+/*code to style menu button's color,padding,border and radius*/
+.menu-btn{
+background:#f64c72;
+border:1px solid #f64c72;
+color:#fff;
+padding:3px;
+}
+/*code to change menu buttons text and background color on mouse hover*/
+.menu-btn:hover{
+background:#fff;
+color:#f64c72;
+border:1px solid #f64c72;
+}
+.hero{
+height:400px;
+width:100%;
+background-image:linear-gradient(to right,#242582,#2f2fa2);
+}
+.hero-text{
+color:#fff;
+/*float:right;*/
+margin-right:20px;
+}
+.clearfix{
+margin-bottom:100px;
+}
+.about-bg{
+height:200px;
+background:#999999;
+}
+.about-card h1{
+color:#000;
+font-size:30px;
+text-align:center;
+}
+.about-body p{
+color:#000;
+text-align:justify;
+}
+.about-card{
+float:left;
+width:40%;
+padding:1%;
+margin-left:50px;
+}
+.banner{
+height:150px;
+width:100%;
+background-image:linear-gradient(to right,#f64c72,#2f2fa2);
+margin-top:-380px;
+}
+.quote{
+padding:5%;
+color:#fff;
+}
+.banner:hover{
+background-image:linear-gradient(to right,#2f2fa2,#f64c72);
+color:#fff;
+}
+/*SERVICES CODES*/
+.section-bg{
+height:300px;
+width:100%;
+}
+.section-bg h1{
+padding-top:20px;
+text-align:center;
+color:#f64c72;
+font-size:30px;
+}
+.card{
+float:left;
+width:22%;
+padding:1%;
+margin-left:50px;
+text-align:center;
+}
+.card h4{
+color:#242582;
+font-size:20px;
+}
+.form-bg{
+height:500px;
+width:100%;
+background-image:linear-gradient(to right,#2f2fa2,#f64c72);
+background-position:fixed;
+}
+.form-bg h1{
+padding-top:20px;
+text-align:center;
+color:#fff;
+font-size:30px;
+}
+.form-body p{
+color:#fff;
+text-align:justify;
+margin-top:100px;
+}
+.form-card{
+float:left;
+width:40%;
+padding:1%;
+margin-left:50px;
+}
+input{
+border-radius:2px;
+}
+label{
+color:#fff;
+}
+.social{
+text-align:center;
+margin-bottom:100px;
+}
+.social ul li{
+list-style:none;
+}
+.social ul li a{
+text-decoration:none;
+}
+footer.address{
+height:200px;
+background:#000;
+color:#fff;
+border-top:1px solid #f64c72;
+}
+.address-card{
+float:left;
+width:40%;
+padding:1%;
+margin-left:50px;
+}
+footer.footer1{
+height:50px;
+width:100%;
+background-image:linear-gradient(to right,#242582,#2f2fa2);
+padding-top:20px;
+color:#fff;
+}
+.footer1 p{
+text-align:center;
+}
+.footer1 a{
+color:orange;
+}
+</style>
+</head>
+
+<body>
+ 
+  <!--NAVIGATION BAR-->
+<section>  
+ <header>
+    <div class="logo">
+     <p>Logo...</p>
+     </div>
+   <nav>
+     <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="#follow"><button class="menu-btn">Follow Us</button></a></li>
+
+    </ul>
+
+   </nav>
+  </header>
+
+  <!--HERO IMAGE-->
+<div class="hero">
+  <div class="container">
+    <div class="hero-text">
+     <h1>We Deliver on Our Promise</h1>
+     <p>Bring all your IT needs to us, you can be assured<br> of quality service and prompt delivery</p>
+      <a href="#services"><button class="menu-btn">Read More</button></a>    
+     </div>
+   </div>
+  </div>
+</section>
+  
+<!--ABOUT US-->
+<section class="about-bg">
+   <div class="about-card">
+   <h1 id="about-us">About Us</h1>
+    <div class="about-body">   
+     <p>This is where about us text goes,This is where about us text goesThis is where about us text goes,
+      This is where about us text goes,This is where about us text goes,This is where about us text goes,
+      This is where about us text goes.This is where about us text goes.This is where about us text goes
+     </p>
+    </div>
+   </div> 
+ 
+   <div class="about-card">
+    <div class="about-body">
+    <div class="banner">
+     <h1>Quote</h1>
+    <p class="quote"><q>IT is the Future, embrace it now or lag behind</q><br><small>Kwaku Darpah</small></p>
+    </div>
+   </div>
+  </div> 
+ </section>
+
+<div class="clearfix"></div>
+
+
+  <!--SERVICES-->
+  <section class="section-bg">
+    <h1 id="services">Services</h1>
+
+   <div class="card">
+    <div class="card-body">
+     <h4>Website Development</h4>
+     <p>Text goes here....Text goes here....Text goes here....Text goes here....Text goes here....Text goes here....</p>
+    </div>
+   </div> 
+
+   <div class="card">
+    <div class="card-body">
+     <h4>Graphics design</h4>
+     <p>Text goes here....Text goes here....Text goes here....Text goes here....Text goes here....Text goes here....</p>
+    </div>
+   </div> 
+
+   <div class="card">
+    <div class="card-body">
+     <h4>Computer Networking</h4>
+     <p>Text goes here....Text goes here....Text goes here....Text goes here....Text goes here....Text goes here....</p>
+    </div>
+   </div> 
+ </section>   
+
+<div class="clearfix"></div>
+
+  <!--CONTACT US-->
+   <section class="form-bg">
+    <h1 id="contact">Contact Us</h1>
+
+   <div class="form-card">
+    <div class="form-body">
+     <p>We will be happy to hear from you, mind sending us a message concerning all enquiries on our services
+products, and use of this website. We will be more than glad to assist you.<br>Thank You</p>
+    </div>
+   </div> 
+ 
+   <div class="form-card">
+    <div class="form-body">
+    <form>
+       <div class="form-group">
+        <label>
+          Name
+        </label>     
+        <div>
+         <input type="text" placeholder="enter your name"/>
+        </div><br>
+       
+        <label>
+          Email
+        </label>
+        <div>
+         <input type="email" placeholder="enter your email"/>
+        </div><br>
+
+        <label>
+          Telephone
+        </label>
+        <div>
+        <input type="tel" placeholder="enter your name"/>
+        </div><br>
+
+         <label>
+          Message
+        </label>
+        <div>
+        <textarea rows="5" cols="30"></textarea>
+        </div><br>
+
+        <div>
+        <input type="checkbox"/>I agree to terms and conditions of this page.
+        </div><br>
+
+        <div>
+        <button>Send</button>
+        </div>
+       </div>
+    </from>
+   </div>
+  </div> 
+ </section>
+
+<div class="clearfix"></div>
+
+<!--FOLLOW US-->
+   <div class="social">
+    <h1 id="follow">Follow Us</h1>
+    <p>We are on social media connect with us</p>
+     <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+     </ul>
+   </div>
+
+ 
+    
+      <footer class="address">
+       <div class="container">
+     <div class="address-card">
+      <div class="address-body">
+        <address>
+          <h4>Address</h4>
+         <p>Contact:024-2222-874<br>
+         Address:P.O Box ks 4508<br>
+         Madhav</p>
+        </address>
+      </div>
+     </div>
+       
+     <div class="address-card">
+      <div class="address-body">
+         <h4>Subscription</h4>
+        <div class="subscribe">
+        <input type="email" placeholder="subscribe with email"/><button class="menu-btn">Subscribe</button>
+       </div>
+     </div>
+     </div>
+     </div>
+     </footer>
+
+   
+    <footer class="footer1">
+     <p class="copyright">(c)2019 - Developed by <a href="www.rictconsult.com">Rdarps ICT Consult</a><p>
+    </footer>
+
+
+</body>
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
