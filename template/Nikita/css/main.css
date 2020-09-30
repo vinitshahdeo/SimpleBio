@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.main_wrapper{
+    height: 100vh;
+    width:100%;
+    display: flex;
+}
+
+.sidebar{
+    width:20%;
+    height:100%;
+    background-color: rgba(84, 94, 221, 0.8);
+
+}
+
+.sidebar_header{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar_header_content{
+    font-size: 40px; 
+    font-weight: bold;
+    color: white;
+    
+}
+
+.sidebar_navigation{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40%;
+}
+
+.sidebar_navigation_item{
+    font-size: 30px;    
+    color: white;
+
+}
+
+.main_area{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.main_area_header{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 80%;
+}
+
+.main_area_header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.main_area_header li{
+    padding: 0px 30px;
+    font-size: 25px;
+    color:  rgba(84, 94, 221, 0.8);
+}
+
+.profile_wrapper{
+    width: 50%;
+    height: 100%;
+    background-image: url('/SimpleBio/template/Nikita/img/female.png');
+    background-position: center , center;
+    background-size:cover;
+    clip-path: circle(35%);
+}
+
+
+.main_area_content{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_area_content_heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(84, 94, 221, 0.8);
+
+}
+
+.main_area_content_sub_heading{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.main_area_content_para{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Inconsolata', sans-serif;
+}
