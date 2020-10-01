@@ -78,6 +78,7 @@ a:hover, a:focus, a:active, a:visited {
     
 }
 .btn-red:hover {
+	color:blue;
 	opacity: 0.9;
     text-transform: uppercase;
     cursor: pointer;
@@ -214,4 +215,12 @@ ul.social li a {
         width: 49%;
         margin-right: 9px;
     }
+}
+
+s1{
+    margin: 15px auto;
+    color: aqua;
+    font-size: 1.3em;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
