@@ -4,23 +4,23 @@
 */
 body {
 	font-family: 'Montserrat', sans-serif;
-    color: #404142;
-    font-size: 16px;
+        color: #404142;
+        font-size: 16px;
 	letter-spacing: 0.2px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: -0.1px;
-    opacity:0.7;
+        font-family: 'Roboto', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: -0.1px;
+        opacity:0.7;
 }
 hr {
-  height: 0;
-  border:2px solid #404142;
-  opacity: 0.1;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
+          height: 0;
+          border:2px solid #404142;
+          opacity: 0.1;
+         -webkit-box-sizing: content-box;
+         -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
 ul {
@@ -40,47 +40,47 @@ a:hover, a:focus, a:active, a:visited {
 /* Button for title text */
 .btn {
 	text-transform: capitalize;
-    font-weight: 600;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
+        font-weight: 600;
+       -webkit-transition: all 0.6s;
+       -moz-transition: all 0.6s;
         transition: all 0.6s;
     
 }
 .btn-lg {
 	padding: 5px 10px;
-    font-size: 16px;
-    line-height: none;
-    border-radius: 4px;
+        font-size: 16px;
+        line-height: none;
+        border-radius: 4px;
 }
 
 .btn-yellow {
 	background-color: #fcd93b;
 	color: #2a2a2a;
 	opacity: 0.8;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
+       -webkit-transition: all 0.6s;
+       -moz-transition: all 0.6s;
+        transition: all 0.6s;
     
 }
 .btn-yellow:hover {
 	opacity: 0.9;
-    text-transform: uppercase;
-    cursor: pointer;
+        text-transform: uppercase;
+        cursor: pointer;
 }
 
 .btn-red {
 	background-color: rgb(251,155,79);
 	color: #fff;
 	opacity: 0.8;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
+       -webkit-transition: all 0.6s;
+       -moz-transition: all 0.6s;
+       transition: all 0.6s;
     
 }
 .btn-red:hover {
 	opacity: 0.9;
-    text-transform: uppercase;
-    cursor: pointer;
+       text-transform: uppercase;
+       cursor: pointer;
 }
 
 /* div class */
@@ -90,41 +90,41 @@ a:hover, a:focus, a:active, a:visited {
 }
 .about span {
 	font-size: 2em;
-    color: #016cc7;
+        color: #016cc7;
 }
-            .about p{
-                opacity:0.6;
-            }
-             .about p span{
+.about p{
+            opacity:0.6;
+}
+.about p span{
                 color:#016cc7;
                  font-size:1em;
                  opacity: 1.0;
                  font-weight: bolder;
                  -webkit-transition: all 0.8s;
-  	-moz-transition: all 0.8s;
-  	transition: all 0.8s;
-            }
-       .about p span:hover{
+  	         -moz-transition: all 0.8s;
+  	          transition: all 0.8s;
+}
+.about p span:hover{
                letter-spacing: 0.1px;
                text-transform: uppercase;
-           cursor: pointer;
-            }
-            .about a{
+               cursor: pointer;
+}
+.about a{
                 text-decoration:none;
                 font-weight:bold;
                 color:#2a2a2a;
-            }
-            .about a:hover{
+}
+.about a:hover{
                 color:#016cc7;
-            }
+}
 .main .about {
-	width: 31.333333%;
+	 width: 31.333333%;
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
-  	margin-right: 20px;
-  	border: 3px solid #f6f6f6;
-    border-radius: 5px;
+  	 transition: all 0.3s;
+  	 margin-right: 20px;
+  	 border: 3px solid #f6f6f6;
+        border-radius: 5px;
 }
 .main .about:hover {
     box-shadow: 3px 3px 10px #ccc;
@@ -133,22 +133,22 @@ a:hover, a:focus, a:active, a:visited {
 /* Display picture */
 .main-img {
 	max-width: 40%;
-    border: 4px solid #efefef;
-    border-radius: 50%;
-    -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+        border: 4px solid #efefef;
+        border-radius: 50%;
+       -moz-transition: all 0.3s;
+       -webkit-transition: all 0.3s;
+        transition: all 0.3s;
 }
-        .main-img:hover{
+.main-img:hover{
            -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+           -webkit-transform: scale(1.05);
+            transform: scale(1.05);
             cursor: pointer;
-             filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  
-    filter: gray;  
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);  
+            filter: gray;  
     
-        }
+}
 /* Social Media icons */
 ul.social li {
 	list-style: none;
@@ -161,12 +161,12 @@ ul.social li a {
 }
 .fa{
 	color:#016cc7;
-    opacity: 0.8;
+        opacity: 0.8;
 }
-        .fa:hover{
+.fa:hover{
             opacity: 0.8;
             color:#dd5138;
-        }
+}
 
  /* === Custom Colors of original logo=== 
 * Remove comments if you want to use it
@@ -192,7 +192,7 @@ ul.social li a {
 @media (max-width: 767px) {
     
     .main .about {
-        width: 100%
+        width: 100%;
     }
 }
 
