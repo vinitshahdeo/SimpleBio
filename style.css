@@ -6,7 +6,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
     color: #404142;
     font-size: 16px;
-	letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
+    background-color: greenyellow;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
