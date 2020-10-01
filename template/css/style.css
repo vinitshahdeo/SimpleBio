@@ -215,3 +215,25 @@ ul.social li a {
         margin-right: 9px;
     }
 }
+
+.dark{
+    background-color: #131313;
+    color: #fff;
+}
+.dark .about span {
+    color: #ffffff;
+}
+.dark .fa {
+    color: #bfbfbf;
+}
+.dark a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.dark .main .about {
+    border: 0;
+    box-shadow: 0px 2px 30px #77777747;
+    box-sizing: border-box;
+}
