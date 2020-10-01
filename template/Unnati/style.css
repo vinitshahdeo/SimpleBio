@@ -1,0 +1,122 @@
+
+
+        body {
+            background: #ECECEC;
+            font-size: 12px;
+        }
+
+        .navbar {
+            border-bottom: 1px solid #DADFE1;
+        }
+
+        hr {
+            margin: 10px;
+        }
+
+        p {
+            margin: 10px 0px;
+        }
+
+        .rubyColor {
+            border-top: 1px solid #96281B;
+            background: #22313F;
+        }
+
+        .card {
+            margin: 0px 0px 20px 0px;
+        }
+
+        .card-title {}
+
+        .card-deck .col-4 {
+            padding-right: 0px;
+        }
+
+        .card-deck .card:not(:last-child) {
+            margin-right: 0px;
+        }
+
+        .card h4 {
+            font-size: 160%;
+        }
+
+        .coverProfile {
+            /* margin: 10px 0px; */
+            overflow: hidden;
+            border-radius: 2px !important;
+            padding: 0px 0px;
+        }
+
+        .dropShadow {
+            box-shadow: 0px 18px 34px 2px rgba(0, 0, 0, 0.15);
+        }
+
+        .dropShadow-small {
+            box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.05);
+        }
+
+        .mT10 {
+            margin-top: 10px;
+        }
+
+        .mT20 {
+            margin-top: 20px;
+        }
+
+        .mB10 {
+            margin-top: 10px;
+        }
+
+        .coverProfile img {
+            border-top-right-radius: 2px !important;
+            border-top-left-radius: 2px !important;
+        }
+
+        .profileDetails {
+            color: #FFFFFF;
+            padding-bottom: 6px;
+        }
+
+        .profileDetails h3 {
+            margin-top: 10px;
+            font-size: 160%;
+        }
+
+        .btn-group-justified .btn {
+            width: 33.3%;
+        }
+
+        .socialIcons .btn-link {
+            color: #FFFFFF;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .btn-link:focus,
+        .btn:focus {
+            color: #FFFFFF;
+            text-decoration: none;
+            background-color: transparent;
+            border: 0px;
+        }
+
+        .rel {
+            position: relative;
+            text-align: center;
+        }
+
+        .hireBtn {
+            position: absolute;
+            background: #87D37C;
+            box-shadow: 0px 5px 24px 10px rgba(0, 0, 0, 0.44);
+            bottom: 10px;
+            left: 36%;
+
+            font-weight: bold;
+            font-size: 14px;
+            right: auto;
+
+        }
+    
