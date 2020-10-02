@@ -6,7 +6,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
     color: #404142;
     font-size: 16px;
-	letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
@@ -125,6 +125,7 @@ a:hover, a:focus, a:active, a:visited {
   	margin-right: 20px;
   	border: 3px solid #f6f6f6;
     border-radius: 5px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .main .about:hover {
     box-shadow: 3px 3px 10px #ccc;
