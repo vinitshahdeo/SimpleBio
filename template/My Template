@@ -1,0 +1,47 @@
+<html>
+    <head>
+    
+    <title>Chanchal | Personal Website</title>
+       
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!--- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+        
+    </head>
+    
+<body>
+
+ <div class="main">
+    
+   <center>
+       
+        <div class="about">
+            <img src="img/female.png" class="main-img">
+            <h3><span>Chanchal</span></h3>
+            <button class="btn btn-lg btn-yellow">Hello, Hope you're doing Good!</button>
+            <p>I am a Software Developer student from Gwalior. You can saw my projects here. I love to sleep rather than playing Games. Currently I am Junior student at 
+                        <a href="http://rjit.org/" target="_blank">RJIT Gwalior.</a>
+                         <br/><span>Thanks for Visiting here!</span>
+            </p>
+          
+           <p>Reach out to me at <a href="email address:chanchalbansal1603@gmail.com">chanchalbansal1603@gmail.com</a></p>
+            
+            <hr>
+            
+            <ul class="social">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+            
+          </div>
+       
+    </center>
+    
+ </div>
+    
+</body>
+    
+    
+</html>
