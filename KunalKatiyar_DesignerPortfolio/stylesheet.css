@@ -1,0 +1,386 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.LIST {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  background-image: linear-gradient(to right, #070C77, #23AEFF);
+}
+
+.LIST a {
+  padding: 6px 8px 5px 6px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+
+.LIST a:hover {
+  color: #f1f1f1;
+  border: 5px solid #333333;
+  overflow: hidden;
+}
+
+.Head {
+	text-align: center;
+	padding-left: 200px;
+	font-size: 120px;
+}
+
+
+.quote {
+	text-align: center;
+	padding-top: 35px;
+	padding-left: 200px;
+	font-size: 25px;
+
+}
+
+.AM {
+	text-align: center;
+	padding-top: 35px;
+	padding-left: 200px;
+	font-size: 25px;
+  font-family: 'Gugi', cursive;
+}
+
+img {
+	padding-left: 200px;
+	padding-top: 50px;
+}
+
+#Bord {
+  outline:  solid black;
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+  50% {outline: 15px solid lightblue;}
+}
+
+.List{
+	text-align: center;
+	font-size: 35px;
+}
+
+.cont {
+	display: inline-block;
+}
+
+.hoverimg img{
+  position: relative;
+  transform-origin: left;
+}
+
+.hoverimg:hover img{
+  transition:  4s;
+  transform: translateX(50px);
+  opacity: 0;
+  filter: blur(10px);
+}
+
+}
+.hoverimg figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.table {
+	font-size: 50px;
+	position: relative;
+	left:100px;
+	top:100px; 
+}
+
+th{
+	background-color: #14FFA8;
+}
+
+td{
+	background-color: #4FB8FF;
+}
+
+.Acadpe{
+	font-size: 50px;
+	position: relative;
+	left:125px;
+}
+
+.contacth {
+	font-size: 50px;
+	position: relative;
+	left: 100px;
+	border: 5px;
+	border-color: #FFFFFF;
+}
+
+.inth{
+	font-size: 40px;
+}
+
+.List{
+	display: inline-block;
+}
+
+.acp {
+	font-size: 50px;
+	position: relative;
+	left: 100px;
+  color: #26CC45;
+}
+
+.quote {
+  text-decoration: none;
+  position: relative;
+  color: #14FFA8;
+}
+
+.quote:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #3366FF;
+  transition: 0.4s;
+}
+
+.quote:hover:after {
+  width: 100%;
+}
+
+.AM {
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+.link1 {
+  transition: transform .2s;
+}
+
+.link1:hover {
+  transform: scale(1.5);
+}
+
+.link2 {
+  transition: transform .2s;
+}
+
+.link2:hover {
+  transform: scale(1.5);
+}
+
+.link3 {
+  transition: transform .2s;
+}
+
+.link3:hover {
+  transform: scale(1.5);
+}
+
+.link4 {
+  transition: transform .2s;
+}
+
+.link4:hover {
+  transform: scale(1.5);
+}
+
+.in1 img{
+	vertical-align: middle;
+}
+
+.inter {
+	position: relative;
+	left: 70px;
+	text-align: right;
+}
+
+.inter::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+	float: left;
+  	width: 20%;
+  	padding: 5px;
+}
+
+.col figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.col figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.col h5{
+	font-size: 40px;
+}
+
+.under {
+	content: '';
+ 	width: 150%;
+ 	align-content: left;
+ 	border-top: 10px solid #3366FF;
+ 	transition: 0.4s;
+}
+
+.line1 {
+	content: '';
+ 	width: 90%;
+ 	align-content: left;
+ 	border-bottom: 5px solid #3366FF;
+ 	transition: 0.4s;
+ 	margin-left: 150px;
+}
+
+.line2 {
+	content: '';
+ 	width: 70%;
+ 	align-content: left;
+ 	border-bottom: 5px solid #138DC1;
+ 	transition: 0.4s;
+ 	margin-left: 300px;
+}
+
+.line3 {
+	content: '';
+ 	width: 50%;
+ 	align-content: left;
+ 	border-bottom: 5px solid #0F719B;
+ 	transition: 0.4s;
+ 	margin-left: 450px;
+}
+
+.line4 {
+	content: '';
+ 	width: 30%;
+ 	align-content: center;
+ 	border-bottom: 5px solid #0C5D7F;
+ 	transition: 0.4s;
+ 	margin-left: 600px;
+}
+
+.line5 {
+	content: '';
+ 	width: 10%;
+ 	align-content: center;
+ 	border-bottom: 5px solid #0B4F6C;
+ 	transition: 0.4s;
+ 	position: relative;
+ 	margin-left: 750px;
+}
+
+.inth {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  padding-left: 30px;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.Acadpe {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  padding-left: 30px;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.contacth {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  padding-left: 30px;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
