@@ -1,0 +1,122 @@
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #000;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4bdf80;
+    text-decoration: none;
+}
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #cccccc;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.card {
+    background: white;
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.list-inline li i {
+    font-size: 25px;
+}
+
+.btn-green {
+    background-color: #1DB954;
+
+    font-size: 15px;
+    line-height: 1;
+    border-radius: 500px;
+    color: #fff;
+    font-weight: 500;
+    padding: 11px;
+    transition-duration: .3s;
+
+}
+
+.btn-green:hover {
+    background-color: #4bdf80;
+    color: #fff;
+}
+
+/* Dashboard layout */
+
+#wrapper {
+    padding: 30px;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background: rgba(175, 175, 175, 0.1);
+}
+
+#left-container {
+    width: 50%;
+    margin: auto;
+}
+
+#left-container .card:first-child {
+    min-height: 350px;
+}
+
+#left-container .card:last-child {
+    min-height: 120px;
+}
+
+
+.footer {
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
