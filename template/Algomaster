@@ -1,0 +1,38 @@
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1> </h1>
+  <h2>Algomaster</h2>
+  <hr />
+  <br>
+  <p class="head">Interests</p>
+  <ul>
+    
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+   
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <a 
+      <li>LPU, Jalandhar</li>
+    </a>
+
+    
+  
+  <p class="head">Hobbies</p>
+  <ul>
+    <li>Football</li>
+    <li>Gardening </li>
+    <li>Reading books</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Emily</h2></div>
