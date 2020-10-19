@@ -1,0 +1,45 @@
+.container {
+  margin-top: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: fit-content;
+  width: 500px;
+  box-shadow: 0 4.2px 5.3px rgba(0, 0, 0, 0.012),
+    0 14.1px 17.9px rgba(0, 0, 0, 0.018), 0 63px 80px rgba(0, 0, 0, 0.03);
+}
+.container:hover {
+  box-shadow: 0 0.9px 5.3px rgba(0, 0, 0, 0.065),
+    0 3.1px 17.9px rgba(0, 0, 0, 0.095), 0 14px 80px rgba(0, 0, 0, 0.16);
+}
+.portfolio-img {
+  margin-left: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.links {
+  margin: 10px;
+}
+.links:hover {
+  opacity: 0.7;
+}
+.skill-sec {
+  padding: 25px;
+}
+.skill-sec .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+hr {
+  width: 200px;
+}
+.skill-sec .row .skill:hover {
+  opacity: 0.7;
+}
