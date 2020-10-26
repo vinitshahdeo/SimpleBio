@@ -6,7 +6,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
     color: #404142;
     font-size: 16px;
-	letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
+    background-color: #ccc;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
@@ -54,7 +55,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .btn-yellow {
-	background-color: #fcd93b;
+	background-color: green;
 	color: #2a2a2a;
 	opacity: 0.8;
     -webkit-transition: all 0.6s;
