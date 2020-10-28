@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.2px;
 }
+
 h1,
 h2,
 h3,
@@ -16,9 +17,11 @@ h6 {
     letter-spacing: -0.1px;
     opacity: 0.7;
 }
+
 hr {
     height: 0;
-    border: 2px solid #404142;
+    margin: 10px;
+    border: 2px solid grey;
     opacity: 0.1;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -28,6 +31,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: 30px;
 }
 a {
     -webkit-transition: all 0.3s;
@@ -49,12 +53,12 @@ a:visited {
 }
 .btn-lg {
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: none;
     border-radius: 4px;
 }
 
-.btn-yellow {
+.btn-orange {
     background-color: #fcd93b;
     color: #2a2a2a;
     opacity: 0.8;
@@ -62,34 +66,23 @@ a:visited {
     -moz-transition: all 0.6s;
     transition: all 0.6s;
 }
-.btn-yellow:hover {
+.btn-orange:hover {
     background-color: #fae900;
     cursor: pointer;
 }
 
-.btn-red {
-    background-color: rgb(251, 155, 79);
-    color: #fff;
-    opacity: 0.8;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
-}
-.btn-red:hover {
-    opacity: 0.9;
-    text-transform: uppercase;
-    cursor: pointer;
+.about {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.about {
-    padding: 20px;
-    margin-top: 20px;
-}
 .about span {
     font-size: 2em;
     color: #016cc7;
 }
 .about p {
+    font-size: 25px;
     opacity: 0.7;
     text-align: center;
 }
@@ -111,17 +104,28 @@ a:visited {
 .about a:hover {
     color: #016cc7;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-image: linear-gradient(to bottom right, #ebe5e6 0% 65%, #a7a5a7 95% 100%);
+}
+
 .main .about {
-    width: 31.333333%;
+    background-color: rgb(247, 245, 245);
+    width: 25%;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     margin-right: 20px;
     border: 3px solid #f6f6f6;
-    border-radius: 5px;
+    border-radius: 2em;
 }
 .main .about:hover {
-    box-shadow: 3px 3px 10px #ccc;
+    box-shadow: 6px 6px 20px #ccc;
     transform: translateY(-10px);
 }
 .main-img {
@@ -132,14 +136,13 @@ a:visited {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
-.main-img:hover {
+.main-img:hover,
+.name:hover {
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-    cursor: pointer;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    filter: gray;
 }
 ul.social li {
     list-style: none;
@@ -155,16 +158,10 @@ ul.social li a {
 }
 .fa:hover {
     opacity: 0.8;
-    color: #dd5138;
+    color: #3b5998;
 }
 
-.fa-linkedin:hover {
-    color: #4099ff;
-}
 .fa-github:hover {
-    color: #a10c0c;
-}
-.fa-facebook:hover {
     color: #3b5998;
 }
 
