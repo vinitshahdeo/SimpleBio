@@ -1,3 +1,3 @@
-##### This is my card
-
-  <img src="./images/card.png" width="200" />
+<p align= "center">  
+  <img  src="./images/card.png" width="200" />
+</p>
