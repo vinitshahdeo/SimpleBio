@@ -88,6 +88,11 @@ a:hover, a:focus, a:active, a:visited {
 	padding: 20px;
 	margin-top: 20px;
 }
+#bio{
+    padding: 1px 0;
+    margin: 10px 0;
+    background-color:#57CC99; 
+}
 .about span {
 	font-size: 2em;
     color: #016cc7;
