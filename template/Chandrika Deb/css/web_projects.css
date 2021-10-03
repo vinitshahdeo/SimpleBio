@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  overflow-x: hidden;
+}
+a {
+ -webkit-transition: .25s all;
+ transition: .25s all;
+}
+.card {
+  padding-left:auto;
+  padding-right:auto;
+  margin-top:15px;
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ -webkit-transition: .25s box-shadow;
+ transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+ box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.card-inverse .card-img-overlay {
+ background-color: rgba(51, 51, 51, 0.85);
+ border-color: rgba(51, 51, 51, 0.85);
+}
+
+.card-img-top{
+  margin-top:10px;
+}
+.col-xs-12{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.row{
+  margin-left:auto;
+  margin-right:auto;
+}
+.frame { 
+	width: 800px;
+	height: 600px;
+	border: 0;
+	-ms-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-webkit-transform: scale(0.25);
+	transform: scale(0.25);
+	
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	margin-bottom:-450px;
+	background-color: #ddd;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .frame  { zoom: 1;  }
+}
