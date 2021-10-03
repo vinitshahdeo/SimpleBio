@@ -83,6 +83,13 @@ a:hover, a:focus, a:active, a:visited {
     cursor: pointer;
 }
 
+/* speaker button */
+#speaker{
+    margin-left: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
 /* div class */
 .about {
 	padding: 20px;
