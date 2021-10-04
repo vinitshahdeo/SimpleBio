@@ -3,13 +3,13 @@
 * Email - vinitshahdeo@gmail.com
 */
 body {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #404142;
     font-size: 16px;
-	letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 800;
+    font-weight: 800;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     letter-spacing: -0.1px;
@@ -20,65 +20,65 @@ hr {
   border:2px solid #404142;
   opacity: 0.1;
   -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 a {
-	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	     transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 a:hover, a:focus, a:active, a:visited {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 /* Button for title text */
 .btn {
-	text-transform: capitalize;
+    text-transform: capitalize;
     font-weight: 600;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
-        transition: all 0.6s;
+    transition: all 0.6s;
     
 }
 .btn-lg {
-	padding: 5px 10px;
+    padding: 5px 10px;
     font-size: 16px;
     line-height: none;
     border-radius: 4px;
 }
 
 .btn-yellow {
-	background-color: #fcd93b;
-	color: #2a2a2a;
-	opacity: 0.8;
+    background-color: #fcd93b;
+    color: #2a2a2a;
+    opacity: 0.8;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     transition: all 0.6s;
     
 }
 .btn-yellow:hover {
-	opacity: 0.9;
+    opacity: 0.9;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 .btn-red {
-	background-color: rgb(251,155,79);
-	color: #fff;
-	opacity: 0.8;
+    background-color: rgb(251,155,79);
+    color: #fff;
+    opacity: 0.8;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     transition: all 0.6s;
     
 }
 .btn-red:hover {
-	opacity: 0.9;
+    opacity: 0.9;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -168,7 +168,7 @@ ul.social li a {
             color:#dd5138;
         }
 
- /* === Custom Colors of original logo=== 
+ /* === Custom Colors of Original Logo=== 
 * Remove comments if you want to use it
 */
 /*
@@ -184,7 +184,7 @@ ul.social li a {
 
 
 /* 
- ===Custom Media Queries===
+ ===Custom Responsive Display/Orientation Queries===
  */
 
 /* Mobile */
