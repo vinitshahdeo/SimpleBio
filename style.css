@@ -144,9 +144,9 @@ a:hover, a:focus, a:active, a:visited {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
             cursor: pointer;
-             filter: grayscale(100%);
+/*              filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  
-    filter: gray;  
+    filter: gray;   */
     
         }
 /* Social Media icons */
