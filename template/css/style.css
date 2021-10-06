@@ -84,6 +84,15 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 /* div class */
+
+.flex {
+    display: flex;
+}
+
+.flex.justify-content-center {
+    justify-content: center;
+}
+
 .about {
 	padding: 20px;
 	margin-top: 20px;
