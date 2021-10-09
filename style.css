@@ -2,11 +2,18 @@
 * Author - Vinit Shahdeo
 * Email - vinitshahdeo@gmail.com
 */
+
+:root {
+    --accent: #016cc7;
+    --text: #303030;
+    --background: #fff;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
-    color: #404142;
+    color: var(--text, #303030);
     font-size: 16px;
 	letter-spacing: 0.2px;
+    background: var(--background, #fff)
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
@@ -17,11 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 hr {
   height: 0;
-  border:2px solid #404142;
-  opacity: 0.1;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+  border:2px solid var(--text, #303030);
+    opacity: 0.1;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 ul {
 	margin: 0;
@@ -31,7 +38,7 @@ ul {
 a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
-  	     transition: all 0.3s;
+  	transition: all 0.3s;
 }
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
@@ -43,7 +50,7 @@ a:hover, a:focus, a:active, a:visited {
     font-weight: 600;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
-        transition: all 0.6s;
+    transition: all 0.6s;
     
 }
 .btn-lg {
@@ -82,6 +89,11 @@ a:hover, a:focus, a:active, a:visited {
     text-transform: uppercase;
     cursor: pointer;
 }
+.btn-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
 
 /* div class */
 .about {
@@ -90,13 +102,13 @@ a:hover, a:focus, a:active, a:visited {
 }
 .about span {
 	font-size: 2em;
-    color: #016cc7;
+    color: var(--accent, #016cc7);
 }
             .about p{
                 opacity:0.6;
             }
              .about p span{
-                color:#016cc7;
+                color:var(--accent, #016cc7);
                  font-size:1em;
                  opacity: 1.0;
                  font-weight: bolder;
@@ -112,11 +124,12 @@ a:hover, a:focus, a:active, a:visited {
             .about a{
                 text-decoration:none;
                 font-weight:bold;
-                color:#2a2a2a;
+                color: var(--text, #303030);
             }
             .about a:hover{
-                color:#016cc7;
+                color:var(--accent, #016cc7);
             }
+.main { position: relative; }
 .main .about {
 	width: 31.333333%;
 	-webkit-transition: all 0.3s;
@@ -136,19 +149,18 @@ a:hover, a:focus, a:active, a:visited {
     border: 4px solid #efefef;
     border-radius: 50%;
     -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
-        .main-img:hover{
-           -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+    .main-img:hover{
+        -moz-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
             cursor: pointer;
-             filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  
-    filter: gray;  
-    
-        }
+                filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);  
+        filter: gray;  
+    }
 /* Social Media icons */
 ul.social li {
 	list-style: none;
@@ -160,13 +172,13 @@ ul.social li a {
 	padding: 0 10px;
 }
 .fa{
-	color:#016cc7;
+	color: var(--accent, #016cc7);
     opacity: 0.8;
 }
-        .fa:hover{
-            opacity: 0.8;
-            color:#dd5138;
-        }
+    .fa:hover{
+        opacity: 0.8;
+        color:#dd5138;
+    }
 
  /* === Custom Colors of original logo=== 
 * Remove comments if you want to use it
@@ -215,3 +227,28 @@ ul.social li a {
         margin-right: 9px;
     }
 }
+
+/* 
+ ===Custom Dark mode===
+*/
+body.dark {
+    --accent: #016cc7;
+    --background: #303030;
+    --text: #fff;
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --accent: #016cc7;
+        --background: #303030;
+        --text: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --accent: #016cc7;
+        --text: #303030;
+        --background: #fff;
+    }
+} */
