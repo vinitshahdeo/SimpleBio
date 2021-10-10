@@ -87,6 +87,7 @@ a:hover, a:focus, a:active, a:visited {
 .about {
 	padding: 20px;
 	margin-top: 20px;
+    background-color: fuchsia;
 }
 .about span {
 	font-size: 2em;
