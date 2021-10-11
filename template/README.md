@@ -1,5 +1,5 @@
 ### Simple Bio Template
-##### Author - Vinit Shahdeo
+##### Author - VG
 
 This is a basic template for personal bio.
 
