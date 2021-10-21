@@ -1,0 +1,146 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+nav{
+    top: 0;
+    position: fixed;
+    width: 100%;  
+}
+.header{
+    
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    /* text-align: center; */
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 40rem;
+	padding: 2% 12%;
+}
+.textbox h2{
+    color: antiquewhite;
+	font-family: 'DM Serif Display', serif;
+	font-weight: normal;
+	line-height: 65px;
+	font-size: 65px;
+}
+.textbox p{
+    color: azure;
+	max-width: 50%;
+	font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	letter-spacing: 0.2px;
+	line-height: 25px;
+}
+.textbox a{
+	font-family: 'DM Serif Display', serif;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 3px;
+	border: 2px solid #fff;
+	padding: 8px 20px;
+	color:#fff;
+	transition: 0.6s ease;
+    background-color: #020f2b;
+}
+.textbox a:hover{
+	background-color:white;
+	color: hsl(256, 26%, 20%);
+}
+.formver{
+    font-family: 'DM Serif Display', serif;
+    background-color: #020f2b;
+    border-radius: 5px;
+    color: azure;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    padding: 80px 60px;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn.btn-primary{
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 3px;
+	border: 2px solid #fff;
+	padding: 8px 20px;
+	color:#fff;
+	transition: 0.6s ease;
+    border-radius: 0%;
+    
+}
+
+@media screen and (max-width: 800px){
+	.header{
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.textbox{
+		padding-bottom: 50px;
+	}
+	.textbox h2{
+		padding-top: 50px;
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.textbox p{
+		max-width: 100%;
+	}
+	.formver{
+		width: 75vw;
+		padding: 40px 35px;
+
+	}
+}
+div{
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social{
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+}
+
+.social li{
+	list-style: none;
+}
+
+.social svg path{
+	transition: 0.2s ease-in;
+	fill: white;
+  
+}
+.icons1:hover{
+	fill: rgb(0, 162, 255);
+}
+.icons2:hover{
+	fill: rgb(0, 162, 255);
+}
+.icons3:hover{
+	fill: rgb(9, 124, 255);
+}
+.icons4:hover{
+	fill: green;
+}
+.icons5:hover{
+	fill: rgb(153, 3, 133);
+}
