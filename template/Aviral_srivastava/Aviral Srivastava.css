@@ -1,0 +1,42 @@
+*{   
+    margin: 10 auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10 auto;
+    
+}
+
+.body{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(132,45,253,1) 100%);
+}
+.topnav {
+  background-color:none;
+  overflow: hidden ;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: firebrick;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: blink;
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+  margin-right: 0px;
+  border-radius: 0.5px;
+}
+
+.topnav a:hover {
+  
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+  }
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ 
+       
