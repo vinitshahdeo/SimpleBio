@@ -1,0 +1,18 @@
+{
+  "name": "7.todo_list",
+  "version": "2.0.0",
+  "description": "This is the second version of ToDo List app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@alphaCoder69",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.28"
+  }
+}

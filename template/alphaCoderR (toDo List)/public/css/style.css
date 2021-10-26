@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4949b4 50%, aliceblue 50%);
+    font-family: sans-serif;
+}
+
+.card {
+    width: 25%;
+    margin: 8% auto 3% auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.5s;
+    animation: fadeIn 1s;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30), 0 6px 10px rgba(0, 0, 0, 0.50);
+}
+
+.header {
+    font-size: 28px;
+    text-align: center;
+    padding:15px 10px;
+    cursor: default;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.card-body {
+    background-color: aliceblue;
+    padding-top: 5%;
+}
+
+.list-item {
+    width: 80%;
+    margin: 0 0 0 10%;
+    padding: 0 2% 2% 10%;
+}
+
+.row {
+    display: flex;
+}
+
+input[type="checkbox"] {
+    margin-left: -18%;
+    margin-top: 5%;
+}
+
+input:checked + p {
+    text-decoration: line-through;
+    text-decoration-color: #111429;
+}
+
+.item {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    line-height: 30px;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.item:hover {
+    transform: translateX(2px);
+}
+
+
+input[type="text"] {
+    width: 70%;
+    margin: 0 auto 8% 8%;
+    outline: none;
+    border: 2px solid #4949b4;
+    border-radius: 200px;
+    text-align: center;
+    height: 40px;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 1;
+}
+
+.add-btn {
+    background-color: #4949b4;
+    border: 2px solid #4949b4;
+    width: 13%;
+    border-radius: 50%;
+    color: aliceblue;
+    margin-top: 10px;
+    outline: none;
+}
+
+.add {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.footer{
+    color: gray;
+    text-align: center;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    animation: fadeIn 1s;
+    cursor: default;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {opacity: 0;}
+    60% {opacity: 0.6;}
+    80% {opacity: 0.8;}
+    100% {opacity: 1;}
+}
+
+/* Making the app mobile responsive*/
+
+@media only screen and (max-width:480px) {
+    .card {
+        width: 90%;
+        margin: 25% auto 3% auto;
+    }
+
+    .header {
+        background-color: #4949b4;
+    }
+
+}
