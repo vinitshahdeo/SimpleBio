@@ -1,0 +1,26 @@
+.home-section{
+    background-color:#ccc;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid #939393;
+  }
+  .portafolio-section{
+    background-color:#008fff;
+    color:white;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid blue;
+  }
+  .head{
+    background-color:#ffcccc;
+  }
+  .jumbotron { 
+      margin-top: 60px;
+      background-color:#ffaaaa;
+  }
+  .presentation {
+     margin-top:30px; 
+     line-height: 30px;
+  }
+  .second{
+    background-image: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg");
+    color:white;
+  }
