@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_portfolio.css">
+</head>
+<body> 
+
+    <!-- header containing logo and side menu that slides out.  -->
+    <div class="header">
+        <a id="homepage">
+            <div class="item header_item-1">
+                 <!-- replace with your own logo -->
+                <img src="img/logo.png">
+            </div>
+        </a>
+        <div class="item header_item-2">
+            <button class="openbtn" onclick="openNav()">
+                <img src="img/circle.png" width="20">
+            </button>
+        </div>
+    </div>
+
+    
+ <!-- side menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <img src="img/circle.fill.png" width="20">
+        </a>
+
+        <div id="menu" class="menu">
+         <!-- replace with own contact info -->
+            <div class="item menu_item-1">
+                <h3>Interested?</h3>
+                <!-- phone number -->
+                <p>(0047) 90-07-70-07</p>
+                <!-- link to your email -->
+                <a href ="mailto: ingebjorgtmorch@gmail.com">ingebjorgtmorch@gmail.com</a>
+            </div>
+            <div class="item menu_line"></div>
+            <div class="item menu_item-2">
+                <div class="address">
+                    <!-- address -->
+                    <p>
+                        Torvgata 19<br> 
+                        2000 Lillestrøm<br> 
+                        Norway
+                    </p>
+                </div>
+                    <h4>Instagram feed</h4> 
+            </div>
+            <!-- instagram account-->
+            <div class="item menu_item-5">
+                <!-- link to your own insta account-->
+                <a href="https://www.instagram.com/ingebjorgtmorchartist/">
+                <!-- input your own insta pictures - possible to link to Instagram API -->
+                <div class="insta_feed">
+                    <img src="img/works/insta1.png">
+                    <img src="img/works/insta2.png">
+                    <img src="img/works/insta3.png">
+                    <img src="img/works/insta4.png">
+                    <img src="img/works/insta5.png">
+                    <img src="img/works/insta6.png">
+                </div>
+                </a>
+            </div>
+        </div> 
+    </div>
+
+<!-- fixed left menu; takes you to preview of paintings further down-->
+    <a href="#explore" class="explore">
+        <div class="left-menu">
+            <div class="item left_item-1">
+                <img src="img/arrow_pic.png" width="30">
+            </div>
+            <div class="item left_item-2">
+                <p>Explore</p> 
+            </div>
+        </div>
+    </a>
+
+    <!-- fixed right menu; opens slide out side menu-->
+    <div class="right-menu">
+        <div class="item right_item-1">
+            <img src="img/arrow_pic.png" width="30">
+        </div>
+        <div class="item right_item-2" onclick="openNav()">
+            <p>Contact</p>
+        </div>
+    </div>
+
+    <!-- homepage section -->
+    <div class="homepage">
+        <div class="item homepage_item-1">
+            <!-- name -->
+            <h1>Ingebjørg Thorbjørnsen Mørc</h1>
+        </div>
+        <div class="item homepage_item-2">
+            <!-- main image -->
+            <img src="img/IMG_1017.jpg">
+        </div>
+        <div class="item homepage_item-3">
+            <img src="img/scroll_down.png">
+        </div>
+        <div class="item homepage_item-4">
+            <!-- introducing paragraph -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="item homepage_item-5">
+            <ul>
+                <!-- phone number -->
+                <li>(0047) 90-07-70-07</li>
+                <!-- email - link your own -->
+                <a href ="mailto: ingebjorgtmorch@gmail.com"><li>ingebjorgtmorch@gmail.com</li></a>
+            </ul>
+        </div>
+    </div>
+    <!-- works section-->
+    <div class="works">
+        <div class="item works_item-1">
+            <!-- paragrapgh -->
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l</h2>
+        </div>
+        <div class="item works_item-2">
+            <!-- sentence -->
+            <p>consectetur adipiscing elit, sed do eiusmod tempor</p>
+        </div>
+        <!-- link to all work page -->
+        <div class="item works_item-3">
+            <a href="all_works.html">
+                <span>
+                    <p>See all<br>works</p> 
+                    <img src="img/white_arrow.png" width="30">
+                </span>
+            </a>
+        </div>
+        <!-- image section - replace with own works -->
+        <div class="item works_item-4">
+            <a id="explore">
+                <div class="works_scroll">
+                    <!-- images -->
+                        <img src="img/works/works1.png">
+                        <img src="img/works/works2.png">
+                    <div class="item works_scroll_item-3">
+                        <img src="img/works/works3.png">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- exhibition section -->
+    <div class="exhibitions">
+            <div class="item exhibitions_item-1">
+                <a id="exhibitions"><h2>Exhibitions</h2></a>
+            </div>
+        <!-- present exhibitions -->
+        <div class="item exhibitions_item-2">
+            <h3>PRESENT</h3>
+        </div>
+        <div class="item line"></div>
+        <div class="item exhibitions_item-3">
+            <!-- year -->
+            <p>2023</p>
+        </div>
+        <!-- input your own exhibitions and link to their page if wanted by including a <a> tag before and after name of gallery -->
+        <div class="item exhibitions_item-4">
+                <ul>
+                    <div class="container">
+                        <li>Annka Kultys Gallery</li>
+                        <!-- picture of artist at exhibition - replace with own or remove -->
+                        <img src="img/exhibitions/exhibition1.png">
+                    </div>
+                    <div class="container">
+                        <li> Lisson Gallery</li>
+                        <img src="img/exhibitions/exhibition2.png">
+                    </div>
+                    <div class="container">
+                        <li>John Martin Gallery</li>
+                        <img src="img/exhibitions/exhibition3.png">
+                    </div>
+                    
+                    <li>Claas Reiss</li>
+                    <li>Bartha Contemporary</li>
+                    <li>October Gallery</p></li>
+                </ul>
+        </div>
+        <!-- future exhibitions -->
+        <div class="item exhibitions_item-5">
+            <h3>FUTURE</h3> 
+        </div>
+        <div class="item line-2"></div>
+        <div class="item exhibitions_item-6">
+            <!-- year -->
+            <p>2023</p>
+        </div>
+        <div class="item exhibitions_item-7">
+            <ul>
+                <!-- exhibition names / galleries -->
+                <div class="container">
+                    <li>Annka Kultys Gallery</li>
+                    <img src="img/exhibitions/exhibition1.png">
+                </div>
+                <div class="container">
+                    <li> Lisson Gallery</li>
+                    <img src="img/exhibitions/exhibition2.png">
+                </div>
+                <div class="container">
+                    <li>John Martin Gallery</li>
+                    <img src="img/exhibitions/exhibition3.png">
+                </div>
+                <li>Claas Reiss</li>
+                <li>Bartha Contemporary</li>
+                <li>October Gallery</p></li>
+            </ul>
+        </div>
+        <div class="item line-3"></div>
+        <!-- past exhibitions -->
+            <div class="item exhibitions_item-8">
+                <h3>PAST</h3>
+            </div>
+            <div class="item exhibitions_item-9">
+                <!-- year -->
+                <p>2022</p>
+            </div>
+            <div class="item exhibitions_item-10">
+                <ul>
+                    <!-- exhibition names / galleries -->
+                    <div class="container">
+                        <li>Annka Kultys Gallery</li>
+                        <img src="img/exhibitions/exhibition1.png">
+                    </div>
+                    <div class="container">
+                        <li> Lisson Gallery</li>
+                        <img src="img/exhibitions/exhibition2.png">
+                    </div>
+                    <div class="container">
+                        <li>John Martin Gallery</li>
+                        <img src="img/exhibitions/exhibition3.png">
+                    </div>
+                    <li>Claas Reiss</li>
+                    <li>Bartha Contemporary</li>
+                    <li>October Gallery</p></li>
+                </ul>
+            </div>
+            <div class="item exhibitions_item-11">
+                <!-- year -->
+                <p>2021</p>
+            </div>
+            <div class="item exhibitions_item-12">
+                <ul>
+                    <!-- exhibition names / galleries -->
+                    <div class="container">
+                        <li>Annka Kultys Gallery</li>
+                        <img src="img/exhibitions/exhibition1.png">
+                    </div>
+                    <div class="container">
+                        <li> Lisson Gallery</li>
+                        <img src="img/exhibitions/exhibition2.png">
+                    </div>
+                    <div class="container">
+                        <li>John Martin Gallery</li>
+                        <img src="img/exhibitions/exhibition3.png">
+                    </div>
+                    <li>Claas Reiss</li>
+                    <li>Bartha Contemporary</li>
+                    <li>October Gallery</p></li>
+                </ul>
+            </div>
+    </div>
+
+    <!-- about section -->
+    <div class="about">
+            <div class="item about_item-1">
+                <!-- heading -->
+                <a id="about"><p>ABOUT ME</p> </a>
+            </div>
+        <div class="item about_item-2">
+            <!-- paragraph / quote -->
+            <h2>Lorem ipsum dolor sit amet, consectetur <em>adipiscing elit, sed do</em> ipsum dolor sit amet, consectetur </h2>
+        </div>
+        <div class="item about_item-3">
+            <!-- paragraph -->
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ltempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  </p>
+        </div>
+        <div class="item about_item-4">
+            <img src="img/hands_left.png" width="170">   
+        </div>
+        <div class="item about_item-5">
+            <img src="img/hands_right.png" width="220">   
+        </div>
+        <div class="item about_item-6">
+            <!-- contact section -->
+            <div class="contact_icons">
+                <div class="item contact_item-1">
+                    <!-- link to insta account - replace with own -->
+                    <a href="https://www.instagram.com/ingebjorgtmorchartist/">
+                        <div class="icon-text">
+                            <img src="img/instagram.png" width="20">
+                            <p>INSTAGRAM</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item contact_item-2">
+                    <!-- link to facebook account - replace with own -->
+                    <a href="https://www.facebook.com/ingebjorg.t.morch">
+                        <div class="icon-text">
+                            <img src="img/facebook.png" width="20">
+                            <p>FACEBOOK</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item contact_item-3">
+                    <!-- link to linkedin account - replace with own -->
+                    <a href="https://www.linkedin.com/in/ingebj%C3%B8rg-t-m%C3%B8rch-60b46ab8/">
+                        <div class="icon-text">
+                            <img src="img/linkedin.png" width="20">
+                            <p>LINKEDIN</p>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- news section -->
+    <div class="news">  
+            <div class="item news_item-1">
+                <!-- heading -->
+                <a id="news"> <h2>News Articles</h2></a>
+            </div>
+        <div class="item news_line"></div>
+            <div class="item news_item-2">
+                <!-- title -->
+                <p>consectetur adipiscing</p>
+            </div>
+            <div class="item news_item-3">
+                <!-- further info -->
+                <p>ed doullamco laboris nisi ut aliquip ex ea 
+                commodo consequat.</p>
+            </div>
+        
+        <div class="item news_item-4">
+            <!-- title -->
+            <p>consectetur adipiscing</p>
+        </div>
+        <div class="item news_item-5">
+            <!-- further info -->
+           <p>ed doullamco laboris nisi ut aliquip ex ea 
+            commodo consequat.</p> 
+        </div>
+        <div class="item news_item-6">
+            <!-- links to articles if wanted - replace #news with the link -->
+            <a href="#news"><img src="img/long_arrow_right.png" width="30"></a>
+        </div>
+        <div class="item news_item-7">
+            <a href=#news""><img src="img/long_arrow_right.png" width="30"></a>
+        </div>
+    </div>
+
+    <!-- latest works section -->
+    <div class="latest"> 
+        
+        <div class="item latest_item-1">
+            <!-- heading -->
+            <a id="latest"><h2>LATEST WORKS</h2></a>
+        </div>
+        
+        <div class="item latest_item-2">
+            <!-- link to all works page -->
+            <a href="all_works.html"><strong>See all</strong></a>
+        </div>
+
+        <!-- image info -->
+            <div class="item latest_item-3">
+                <!-- name of artwork -->
+                <p><strong>Ocean Blue</strong></p>
+            </div>
+            <div class="item latest_item-4">
+                <!-- year of artwork -->
+                <p>2020</p> 
+            </div>
+            <div class="item latest_item-5">
+                <!-- material of artwork -->
+                <p>Acrylic on canvas</p>
+            </div>
+            <div class="item latest_item-6">
+                <!-- size of artwork -->
+                <p>75x100 cm</p>
+            </div>
+            <div class="item latest_item-7">
+                <!-- picture of artwork -->
+                <img src="img/works/works3.png"> 
+            </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer">
+        <div class="item footer_line"></div>
+        <!-- links to sections on page -->
+        <div class="item footer_item-1">
+            <ul>
+                <a href="#homepage"><li>Homepage</li></a>
+                <a href="#explore"><li>Portfolio</li></a>
+                <a href="#exhibitions"><li>Exhibitions</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#news"><li>News</li></a>
+                <a href="#latest"><li>Latest</li></a>
+                <li class="contact" onclick="openNav()">Get in touch</li>
+            </ul>
+        </div>
+        <!-- contact info -->
+        <div class="item footer_item-2">
+            <ul>
+                <!-- insta link - replace with own  -->
+                <a href="https://www.instagram.com/ingebjorgtmorchartist/"><li>Instagram</li></a>
+                <!-- facebook link - replace with own  -->
+                <a href="https://www.facebook.com/ingebjorg.t.morch"><li>Facebook</li></a>
+                <!-- linkedin link - replace with own  -->
+                <a href="https://www.linkedin.com/in/ingebj%C3%B8rg-t-m%C3%B8rch-60b46ab8/"><li>LinkedIn</li></a>
+            </ul>
+        </div>
+        <div class="item footer_item-3">
+            <!-- name -->
+            <h2>Ingebjørg <br>Thorbjørnsen Mørch</h2>
+        </div>
+        <div class="item footer_item-4">
+            <!-- address -->
+            <p>Torvgata 19, 2000 Lillestrøm, Norway
+                <br>
+                <!-- phone number -->
+                (0047) 90-07-70-07
+                <br>
+                <!-- email -->
+                <a href ="mailto: ingebjorgtmorch@gmail.com">ingebjorgtmorch@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Insert the name of the artist in this message or personalize it in a different manner -->
+    <div id="mobile-warning">
+        <h2>Hello.</h2>
+        <p>This portfolio is to be viewed on a laptop to properly appreciate the artworks and get the most out of the website. <br> <br>
+        Going to a gallery is different from looking at the artworks in a book. Admire them in the biggest format available to you. Travel to the digital gallery of <b>Ingebjørg Thorbjørnsen Mørch</b>.</p>
+    </div>
+        
+    <script src="portfolio_template.js"></script>     
+</body>
+</html>
