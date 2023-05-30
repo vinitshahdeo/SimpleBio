@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style_portfolio.css">
+</head>
+
+
+<body> 
+    <!-- header containing logo and side menu that slides out.  -->
+    <div class="header_allWorks">
+        <a href="portfolio_template.html">
+            <div class="item header_item-1">
+                <!-- replace with your own logo -->
+                <img src="img/logo.png">
+            </div>
+        </a>
+        <div class="item header_allWorks_item-2">
+            <button class="openbtn" onclick="openNav()">
+                <img src="img/circle.png" width="20">
+            </button>
+        </div>
+    </div>
+
+    <!-- side menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <img src="img/circle.fill.png" width="20">
+        </a>
+      <div id="menu" class="menu">
+        
+        <!-- replace with own contact info -->
+        <div class="item menu_item-1">
+            <h3>Interested?</h3>
+            <!-- phone number -->
+            <p>(0047) 90-07-70-07</p>
+            <!-- link to your email -->
+            <a href ="mailto: ingebjorgtmorch@gmail.com">ingebjorgtmorch@gmail.com</a>
+        </div>
+        <div class="item menu_line"></div>
+        <div class="item menu_item-2">
+
+        <div class="address">
+            <!-- address -->
+            <p>
+                Torvgata 19<br> 
+                2000 Lillestrøm<br> 
+                Norway
+            </p>
+        </div>
+            <h4>Instagram feed</h4> 
+        </div>
+        <!-- instagram account-->
+        <div class="item menu_item-5">
+        <!-- link to your own insta account-->
+            <a href="https://www.instagram.com/ingebjorgtmorchartist/">
+        <!-- input your own insta pictures -->
+            <div class="insta_feed">
+                <img src="img/works/insta1.png">
+                <img src="img/works/insta2.png">
+                <img src="img/works/insta3.png">
+                <img src="img/works/insta4.png">
+                <img src="img/works/insta5.png">
+                <img src="img/works/insta6.png">
+            </div>
+            </a>
+        </div>
+    </div> 
+ </div>
+    <!-- fixed right menu; opens slide out side menu-->
+        <div class="right-menu">
+            <div class="item right_item-1">
+                <img src="img/arrow_pic.png" width="30">
+            </div>
+            <div class="item right_item-2" onclick="openNav()">
+                <p>Contact</p>
+            </div>
+        </div>
+        
+<!-- main -->
+    <div class="all_work">
+        <div class="item all_work_item-1">
+            <h2>ALL WORKS</h2>
+        </div>
+        <!-- main starting image  -->
+        <div class="item all_work_item-2">
+            <img id="all-work-image" data-mini-gallery="mini-gallery-0"src="img/works/works3.png" >
+        </div>
+        <!-- this section covers the years of your works, the names of the work as well as the image id's of the work. -->
+        <div class="item all_work_item-3">
+            <div class="scroll_all_work">
+                <h3>2023</h3>
+                <ul id="list-items">
+                    <li 
+                        id="item1" 
+                        class="list-item" 
+                        data-image-ids="oceanblue1,oceanblue2,oceanblue3,oceanblue4,oceanblue5">
+                        Ocean blue</li>
+                    <li 
+                        id="item2"
+                        class="list-item" 
+                        data-image-ids="daydreaming1,daydreaming2,daydreaming3,daydreaming4,daydreaming5">
+                        Daydreaming</li>
+                    <li 
+                        id="item3"
+                        class="list-item" 
+                        data-image-ids="dessertdessolate1,dessertdessolate2,dessertdessolate3,dessertdessolate4,dessertdessolate5">
+                        Dessert dessolate</li>
+                    <li 
+                        id="item4"
+                        class="list-item" 
+                        data-image-ids="wonder1,wonder2,wonder3,wonder4,wonder5,wonder6">
+                        Wonder</li>
+                    <li 
+                        id="item5"
+                        class="list-item" 
+                        data-image-ids="greenoasis1,greenoasis2,greenoasis3">
+                        Green oasis</li>
+                    <li 
+                        id="item6"
+                        class="list-item" 
+                        data-image-ids="focus1,focus2,focus3,focus4,focus5">
+                        Focus</li>
+                </ul>
+                <h3>2022</h3>
+                <ul>
+                    <li id="item1">Ocean blue</li>
+                    <li id="item2">Daydreaming</li>
+                    <li id="item3">Dessert dessolate</li>
+                    <li id="item4">Wonder</li>
+                    <li id="item5">Green oasis</li>
+                    <li id="item6">Focus</li>
+                </ul>
+                <h3>2021</h3>
+                <ul>
+                    <li id="item1">Ocean blue</li>
+                    <li id="item2">Daydreaming</li>
+                    <li id="item3">Dessert dessolate</li>
+                    <li id="item4">Wonder</li>
+                    <li id="item5">Green oasis</li>
+                    <li id="item6">Focus</li>
+                </ul>
+                <h3>2020</h3>
+                <ul>
+                    <li id="item1">Ocean blue</li>
+                    <li id="item2">Daydreaming</li>
+                    <li id="item3">Dessert dessolate</li>
+                    <li id="item4">Wonder</li>
+                    <li id="item5">Green oasis</li>
+                    <li id="item6">Focus</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item all_work_item-4">
+            <!-- image description found in js file-->
+            <h4>Ocean blue</h4>
+            <p>2023</p>
+            <p>Acrylic on canvas</p>
+            <p>75x100</p>
+        </div>
+    <!-- small images of work -->
+        <div class="item all_work_item-6">
+            <div class="image-container"></div>
+        </div>
+    <!-- arrow to indicate scrollable list of artworks -->
+        <div class="item all_work_item-7">
+            <img src="img/long_arrow_down.png" width="20">
+        </div>
+
+    </div>
+
+<script src="portfolio_template.js"></script> 
+</body>
+</html>
