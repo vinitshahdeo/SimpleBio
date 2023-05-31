@@ -1,217 +1,147 @@
-/*
-* Author - Vinit Shahdeo
-* Email - vinitshahdeo@gmail.com
-*/
-body {
-	font-family: 'Montserrat', sans-serif;
-    color: #404142;
-    font-size: 16px;
-	letter-spacing: 0.2px;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: -0.1px;
-    opacity:0.7;
-}
-hr {
-  height: 0;
-  border:2px solid #404142;
-    opacity: 0.1;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-a {
-	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
-}
-a:hover, a:focus, a:active, a:visited {
+
+
+
+body{
+    background-color: #2C3E50;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
     text-decoration: none;
+    display: inline-block; 
 }
 
-/* Button for title text */
-.btn {
-	text-transform: capitalize;
-    font-weight: 600;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
-    
-}
-.btn-lg {
-	padding: 5px 10px;
-    font-size: 16px;
-    line-height: none;
-    border-radius: 4px;
+body {margin: 0;}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px; 
+    padding: 5px;
+  }
+
+h3, h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px; 
+    padding: 15px;
+  }
+
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px; 
+  }
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2C3E50;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #E74C3C;}
+  
+  ul.topnav li a.active {background-color: #F2B138;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+
+
+div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
 }
 
-.btn-yellow {
-	background-color: #fcd93b;
-	color: #2a2a2a;
-	opacity: 0.8;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
-    
-}
-.btn-yellow:hover {
-	opacity: 0.9;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
-.btn-red {
-	background-color: rgb(251,155,79);
-	color: #fff;
-	opacity: 0.8;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
-    
-}
-.btn-red:hover {
-	opacity: 0.9;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
-/* div class */
-.about {
-	padding: 20px;
-	margin-top: 20px;
-}
-.about span {
-	font-size: 2em;
-    color: #016cc7;
-}
-            .about p{
-                opacity:0.6;
-            }
-             .about p span{
-                color:#016cc7;
-                 font-size:1em;
-                 opacity: 1.0;
-                 font-weight: bolder;
-                 -webkit-transition: all 0.8s;
-  	-moz-transition: all 0.8s;
-  	transition: all 0.8s;
-            }
-       .about p span:hover{
-               letter-spacing: 0.1px;
-               text-transform: uppercase;
-           cursor: pointer;
-            }
-            .about a{
-                text-decoration:none;
-                font-weight:bold;
-                color:#2a2a2a;
-            }
-            .about a:hover{
-                color:#016cc7;
-            }
-.main .about {
-	width: 31.333333%;
-	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
-  	margin-right: 20px;
-  	border: 3px solid #f6f6f6;
-    border-radius: 5px;
-}
-.main .about:hover {
-    box-shadow: 3px 3px 10px #ccc;
-    transform: translateY(-10px);
-}
-/* Display picture */
-.main-img {
-	max-width: 40%;
-    border: 4px solid #efefef;
-    border-radius: 50%;
-    -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-        .main-img:hover{
-           -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-            cursor: pointer;
-             filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  
-    filter: gray;  
-    
-        }
-/* Social Media icons */
-ul.social li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px 5px;
-}
-ul.social li a {
-	
-	padding: 0 10px;
-}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns */
+    gap: 20px; /* Adjust the gap between images */
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover img {
+    transform: scale(1.1); 
+  }
+  
+  .image::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image:hover::after {
+    opacity: 1;
+  }
+
+
+  ul.social-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+
+
+  ul.social-links li a {
+    padding: 0 20px;
+   
+  }
+
 .fa{
-	color:#016cc7;
+	color:white;
     opacity: 0.8;
 }
         .fa:hover{
             opacity: 0.8;
-            color:#dd5138;
+            color:#E74C3C;
         }
-
- /* === Custom Colors of original logo=== 
-* Remove comments if you want to use it
-*/
-/*
-        .fa-linkedin:hover{
-            color:#4099ff;
-        }
-        .fa-github:hover{
-            color:#2a2a2a;
-        }
-        .fa-facebook:hover{
-            color:#3b5998;
-        }*/
-
-
-/* 
- ===Custom Media Queries===
- */
-
-/* Mobile */
-
-@media (max-width: 767px) {
-    
-    .main .about {
-        width: 100%
-    }
-}
-
-
-/* iPad Portrait */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    
-    .main .about {
-        width: 49%;
-        margin-right: 7px;
-    }
-}
-
-/* iPad Landscape */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .main .about {
-        width: 49%;
-        margin-right: 9px;
-    }
-}
