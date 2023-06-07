@@ -1,0 +1,149 @@
+body{
+    background-color: #2C3E50;/* change the background color */
+    text-align: center;
+    font-family: 'Mulish', sans-serif;/* Fonts */
+    text-decoration: none;
+    display: inline-block; 
+}
+
+body {margin: 0;}
+
+a.link {color: #F2B138;}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;/* Fonts */
+    font-size: 32px; 
+    padding: 5px;
+  }
+
+
+h3, h4 {
+    font-family: 'Nunito Sans', sans-serif;/* Fonts */
+    font-size: 26px; 
+    padding: 15px;
+  }
+
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px; 
+  }
+
+  
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2C3E50;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #E74C3C;}
+  
+  ul.topnav li a.active {background-color: #F2B138;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+
+
+div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns */
+    gap: 20px; /* Adjust the gap between images */
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover img {
+    transform: scale(1.1); 
+  }
+  
+  .image::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image:hover::after {
+    opacity: 1;
+  }
+
+
+  ul.social-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+
+
+  ul.social-links li a {
+    padding: 0 20px;
+   
+  }
+
+.fa{
+	color:white;
+    opacity: 0.8;
+}
+        .fa:hover{
+            opacity: 0.8;
+            color:#E74C3C;
+        }
