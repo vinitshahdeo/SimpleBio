@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-UK">
-  <!--  -->
-  <meta content="text/html", charset="UTF-8">
-  <!--  -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="main.js" type="text/javascript"> </script>
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans&family=Rubik&display=swap');
-    </style>
-
+ 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <head>
     <link rel="stylesheet" href="style.css">
 
+   
+  <meta content="text/html", charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 <!-- Change the name to yours -->
     <title>Geraldines Website</title>
     </head>
@@ -21,6 +17,16 @@
 
 <body>
  
+  <script type="text/javascript"> </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans&family=Rubik&display=swap');
+    </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+
+
     <div>
         <ul class="topnav">
             <li><a class="active" href="#home">Home</a></li>
@@ -32,7 +38,7 @@
 
     <div id="main" class="container">
        <!-- Change the name to yours -->
-        <h1 id="intro">Welcome, I am Geraldine, a Web designer</h1>
+        <h1 class="intro"  >Welcome, I am Geraldine, a Web designer</h1>
     
          <!-- Change the email placeholder to use your email -->
         <p id="contact">Let's Connect <a class="link" href="mailto:your@gmail.com">Your@gmail.com</a></p>
@@ -89,6 +95,15 @@
       
     </div>
 
-   
+    <script> anime({
+    targets: '#text-animation',
+    translateX: [0, 100],
+    opacity: [0, 1],
+    duration: 2000,
+    loop: true,
+    direction: 'alternate'
+  });</script>
+
 </body>
+
 </html>
